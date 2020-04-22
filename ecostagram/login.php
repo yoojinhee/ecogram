@@ -16,7 +16,7 @@
 		<span class="content-right">
 			<div class="content-top">
 				<h2>로그인</h2>
-				<form action="login_process.php" method="post" autocomplete='off'>
+				<form action="login_process.php" method="post" autocomplete='off' >
 	     			<label for="input_id">
 	        			<div><input type="email" name='id' placeholder="email" id="input_id" autocomplete='off'></div>
 	      			</label><br>
@@ -29,7 +29,7 @@
 	    		<a href="find_password.php">비밀번호를 잊으셨나요?</a>
 			</div>
 			<div class="content-bottom">
-				계정이 없으신가요?<a href="sign_up.php">가입가기</a>
+				계정이 없으신가요?<a href="sign_up.php">가입하기</a>
 			</div>
 		</span>
 	</div>

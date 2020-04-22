@@ -17,3 +17,15 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 7000); // Change image every 2 seconds
 }
+
+function logoutchk(){
+        value=document.getElementById("log").innerText;
+        if(value==="로그아웃"){
+            if(confirm("로그아웃하시겠습니까?")){
+            location.href = "index.php";
+            return true;
+        } else {
+            return false;
+        }
+        }
+}//로그아웃 체크
