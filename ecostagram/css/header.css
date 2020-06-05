@@ -1,0 +1,28 @@
+header{
+	height: 60px;
+	width:100%;
+	background-color: #F7F7F7;
+}
+header:after { content:""; clear:both; display:block; }
+.nav{
+	width:1000px;
+	margin:0 auto;
+}
+.nav .logo{
+	float:left;
+}
+.log,.name,.info{
+	float:right;
+}
+.info .name{
+	margin-right: 25px;
+}
+.info .name,.nav .logo,.info .log{
+	font-size: 1.2rem;
+	margin-top:15px;
+}
+
+.info .name a,.logo a,.log a{
+	color:black;
+	text-decoration: none;
+}

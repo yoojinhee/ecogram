@@ -1,0 +1,78 @@
+body{
+	margin:0 0 0 0;
+}
+.bottom:after,.sub-explain:after { content:""; clear:both; display:block; }
+.wrraper{
+	padding-top:50px;
+}
+.container{
+	width:1000px;
+	margin:0 auto;
+	padding-bottom: 50px;
+	background-color: #F7F7F7;
+}
+.top{
+	width:550px;
+	padding-top:50px;
+	margin:0 auto;
+}
+.top .event-title{
+	font-size: 1.8rem;
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+.top .event-sub-title{
+	font-size: 2.6rem;
+	text-align: center;
+	margin-bottom: 25px;
+
+}
+.top .explain{
+	font-size: 1.2rem;
+	text-align: center;
+}
+.top .sub-explain{
+	font-size: 1.1rem;
+	margin-top:40px;
+}
+.top .sub-explain .left{
+	float:left;
+}
+.top .sub-explain .right{
+	float:right;
+}
+.main{
+	width:550px;
+	margin:80px auto 0 auto;
+}
+.main .first,.main .second{
+	text-align: center;
+	width: 500px;
+	height: 50px;
+	margin:15px auto 15px auto;
+}
+.second-text,.first-text{
+	font-size: 1.6rem;
+	margin-right: 10px;
+}
+.firstinput,.secondinput{
+	background-color: #EAEDD9;
+	border:1px solid #EAEDD9;
+	width: 90%;
+	height: 100%;
+}
+.bottom{
+	width: 480px;
+	margin:170px auto 0 auto;
+}
+.buttondiv{
+	float:right;
+}
+.button{
+	color:#69A304;
+	font-size: 1.1rem;
+	padding:15px 0 15px 0;
+	background-color: #F7F7F7;
+	border:2px solid #F7F7F7;
+}
