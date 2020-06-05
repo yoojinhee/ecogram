@@ -10,7 +10,6 @@
 	<style>
 		@import url("css/event.css");
 		@import url("css/header.css");
-
 	</style>
 </head>
 <body>

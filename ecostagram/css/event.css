@@ -1,6 +1,4 @@
-body{
-	margin:0 0 0 0;
-}
+
 .bottom:after,.sub-explain:after { content:""; clear:both; display:block; }
 .wrraper{
 	padding-top:50px;
