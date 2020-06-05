@@ -38,23 +38,29 @@
 						당첨자발표 추첨 후 개별안내
 					</div>
 				</div>
-			</div>
-			<div class="main">
+            </div>
+            
+            <form action="event_process.php" method="post">
 
-				<div class="first">
-					<span class="first-text">환</span><input type="text" name="first" class="firstinput">
-				</div>
-				<div class="second">
-					<span class="second-text">경</span><input type="text" name="second" class="secondinput">
-				</div>
-			</div>
-			<div class="bottom">
-				<div class="buttondiv">
-					<form action="event_process.php" method="post">
-						<input type="submit" value="이벤트 응모하기" class="button">
-					</form>
-				</div>
-			</div>
+                <div class="main">
+
+                    <div class="first">
+                        <span class="first-text">환</span><input type="text" name="first" class="firstinput">
+                    </div>
+                    <div class="second">
+                        <span class="second-text">경</span><input type="text" name="second" class="secondinput">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="buttondiv">
+                        
+                            <input type="submit" value="이벤트 응모하기" class="button">
+                        
+                    </div>
+                </div>
+            
+            </form>
+
 		</div>
 	</div>
 </body>
