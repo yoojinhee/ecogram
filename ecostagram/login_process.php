@@ -12,7 +12,13 @@ $bool=true;
 while($row=mysqli_fetch_array($result)){
   if(!empty($filtered['id'])&&!empty($filtered['password'])){
     if($filtered['id']==$row['id']&&$filtered['password']==$row['password']){
+      session_start();
+      $_SESSION['id']=$filtered['id'];
+      $_SESSION['password']=$filtered['password'];
       $bool=false;
+  
+      header("Location: index.php");
+
       break;
     }
   }else{
@@ -32,16 +38,3 @@ if($bool){
     </script>';
 }
 ?>
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-  <form method="post" name="form" action="index.php">
-    <input type="hidden" name="user_id" value=<?=$row['user_id']?>>
-    <script>document.form.submit();</script>
-  </form>
-</body>
-</html>

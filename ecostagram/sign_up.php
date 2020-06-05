@@ -20,21 +20,23 @@
 				<div class="top-title">
 					sign up
 				</div>
-				<div class="namediv">
-					<input type="text" name="name" class="name">
-				</div>
-				<div class="iddiv">
-					<input type="text" name="id" class="id">
-				</div>
-				<div class="passworddiv">
-					<input type="password" name="password" class="password">
-				</div>
-				<div class="teldiv">
-					<input type="text" name="tel" class="tel">
-				</div>
-				<div class="signUpButtondiv">
-					<input type="submit" value="sign up" class="signUpButton">
-				</div>
+				<form method="POST" action="sign_up_process.php">
+					<div class="namediv">
+						<input type="text" name="name" class="name">
+					</div>
+					<div class="iddiv">
+						<input type="text" name="id" class="id">
+					</div>
+					<div class="passworddiv">
+						<input type="password" name="password" class="password">
+					</div>
+					<div class="teldiv">
+						<input type="text" name="tel" class="tel">
+					</div>
+					<div class="signUpButtondiv">
+						<input type="submit" value="sign up" class="signUpButton">
+					</div>
+				</form>
 			</div>
 			<div class="bottom">
 				<div class="left">계정이 있으신가요?</div>

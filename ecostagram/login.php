@@ -31,7 +31,7 @@
 					<div class="login-title">
 						login
 					</div>
-					<form action="" method="post">
+					<form action="login_process.php" method="post">
 						<div class="iddiv">
 							<input type="text" name="id" class="id">
 						</div>
