@@ -1,0 +1,67 @@
+.wrraper{
+	padding-top: 70px;
+}
+.bottom:after,.container:after { content:""; clear:both; display:block; }
+.logo{
+	text-align: center;
+	color:#4D4D4D;
+	font-size: 2.4rem;
+	width: 100px;
+	margin:0 auto;
+}
+.logo a{
+	color:black;
+	text-decoration: none;
+}
+.container{
+	width:350px;
+	margin:0 auto;
+}
+.bottom,.top{
+	margin-top:20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border:1px solid #69A304;
+}
+.top{
+	margin-top:60px;
+	padding-bottom: 20px;
+}
+.top-title{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.signUpButtondiv,.teldiv,.passworddiv,.iddiv,.namediv{
+	text-align: center;
+	width:280px;
+	margin:0 auto 20px auto;
+	height: 32px;
+}
+.tel,.password,.id,.name{
+	width:95%;
+	height: 100%;
+	background-color: #F3F7E8;
+	border:1px solid #F3F7E8;
+}
+.signUpButton{
+	width:273px;
+	height: 100%;
+	background-color: white;
+	border:1px solid #F3F7E8;
+	color:#69A304;
+}
+.bottom{
+	padding:20px 50px 20px 50px;
+}
+.bottom .left{
+	float:left;
+}
+.bottom .right{
+	float:right;
+}
+.bottom .right a{
+	text-decoration: none;
+	color:#69A304;
+}
