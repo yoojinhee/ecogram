@@ -29,15 +29,26 @@
 	text-align: center;
 }
 
-.bottom,.bottomdiv,.titlediv,.descriptiondiv{
+.filediv,.bottom,.bottomdiv,.titlediv,.descriptiondiv{
 	width: 330px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:10px;
-
 }
-.titlediv{
-	margin-top:50px;
+
+#upload{
+	width:330px;
+	display:none;
+}
+.onclick{
+	margin-left: 5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:100px;
+	background-color: #EAEFDA;
+}
+.filediv{
+	margin-top:100px;
 }
 .tag,.main .title,.main .description{
 	border:1px solid #EAEFDA;
@@ -76,7 +87,7 @@
 	height: 95%;
 }
 .bottom{
-	margin-top: 150px;
+	margin-top: 100px;
 }
 .buttondiv{
 	float:right;
@@ -87,4 +98,11 @@
 	background-color: #F7F7F7;
 	border:1px solid #F7F7F7;
 	color: #69A304;
+}
+#preview{
+	width:300px;
+	margin:0 auto;
+}
+#preview img{
+	max-width: 100%;
 }
