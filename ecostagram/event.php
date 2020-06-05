@@ -39,7 +39,6 @@
 					</div>
 				</div>
             </div>
-            
             <form action="event_process.php" method="post">
 
                 <div class="main">
@@ -53,7 +52,7 @@
                 </div>
                 <div class="bottom">
                     <div class="buttondiv">
-                            <input type="submit" value="이벤트 응모하기" class="button">
+                        <input type="submit" value="이벤트 응모하기" class="button">
                     </div>
                 </div>
             </form>
