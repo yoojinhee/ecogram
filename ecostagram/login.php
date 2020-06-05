@@ -1,3 +1,5 @@
+<?php  
+?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -8,30 +10,48 @@
 	</style>
 </head>
 <body>
-	<header><a href='javascript:void(0);' onClick="top.location='javascript:location.reload()'"><h1>로고</h1></a></header>
-	<div class="container">
-		<span class="content-left">
-			<img src="images/test.png" alt="카메라이미지" width="300" height="700">
-		</span>
-		<span class="content-right">
-			<div class="content-top">
-				<h2>로그인</h2>
-				<form action="login_process.php" method="post" autocomplete='off' >
-	     			<label for="input_id">
-	        			<div><input type="email" name='id' placeholder="email" id="input_id" autocomplete='off'></div>
-	      			</label><br>
-	      			<label for="input_password">
-	        			<div><input type="password" name='password' placeholder="password" id="input_password" autocomplete='off'></div>
-	            </label><br>
-	      			<div><input type="submit" value="로그인" cols="30" style="font-size:2rem"></div>
-	    		</form>
-	    		<hr>
-	    		<a href="find_password.php">비밀번호를 잊으셨나요?</a>
+	<div class="wrraper">
+		<div class="logo">
+			<a href="">로고</a>
+		</div>
+		<div class="container">
+			<div class="container-left">
+				<div class="left-title">
+					today's feed
+				</div>
+				<div class="image">
+					<img src="images/test.png" alt="">
+				</div>
+				<div class="tag-title">
+					#save the earth
+				</div>
 			</div>
-			<div class="content-bottom">
-				계정이 없으신가요?<a href="sign_up.php">가입하기</a>
+			<div class="container-right">
+				<div class="top">
+					<div class="login-title">
+						login
+					</div>
+					<form action="" method="post">
+						<div class="iddiv">
+							<input type="text" name="id" class="id">
+						</div>
+						<div class="passworddiv">
+							<input type="text" name="password" class="password">
+						</div>
+						<div class="loginButtondiv">
+							<input type="submit" value="login" class="login">
+						</div>
+					</form>
+					<div class="bottom">
+						<a href="">비밀번호를 잊으셨나요?</a>
+					</div>
+				</div>
+				<div class="container-bottom">
+					<div class="left">계정이 없으신가요?</div>	
+					<div class="right"><a href="sign_up.php">가입하기</a></div>
+				</div>
 			</div>
-		</span>
+		</div>
 	</div>
 </body>
 </html>

@@ -1,33 +1,98 @@
-body{
-	text-align: center;
+.wrraper{
+	padding-top: 70px;
 }
-a{
+.container-bottom:after,.container:after { content:""; clear:both; display:block; }
+.container-bottom .left a,.top .bottom a,.logo a{
+	color:black;
 	text-decoration: none;
 }
+.container-bottom .right a{
+	color:#69A304;
+	text-decoration: none;
+}
+.logo{
+	color:#4D4D4D;
+	font-size: 2.4rem;
+	width: 100px;
+	margin:0 auto;
+}
 .container{
-	border : 1px solid gray;
-	text-align: center;
-	margin-left:500px;
-	margin-right:500px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width:755px;
 }
-.container:after{
- content:""; clear:both; display:block; 
+.container-left,.top{
+	padding-left: 30px;
+	padding-right: 30px;
+	border:1px solid #69A304;
 }
-.content-left{
-	border : 1px solid gray;
+.container-left{
 	float:left;
-	/*width:440px;*/
-
 }
-.content-right{
-	border : 1px solid gray;
+.image{
+	width:100%;
+	text-align: center;
+}
+.image img{
+	width: 100%; 
+	max-width: 390px; 
+	vertical-align: middle;
+}
+
+.tag-title{
+	color: #69A304;
+	font-size: 1.3rem;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.container-right{
 	float:right;
-	/*width:440px;*/
 }
-.content-top{
-	border : 1px solid gray;
-
+.left-title,.login-title{
+	color:#4D4D4D;
+	padding-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 1.4rem;
 }
-.content-bottom{
-	border : 1px solid gray;
+.loginButtondiv,.passworddiv,.iddiv{
+	width:230px;
+	height: 35px;
+	margin-bottom:15px;
+}
+.loginButtondiv{
+	padding-bottom: 43px;
+	border-bottom: 1px solid #69A304;
+}
+.password,.id{
+	border:1px solid #F3F7E8;
+	background-color: #F3F7E8;
+	width:98%;
+	height: 98%;
+}
+.login{
+	color:#69A304;
+	border:1px solid #F3F7E8;
+	background-color: #ffffff;
+	width: 231px;
+	height: 98%;
+}
+.top .bottom{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.container-bottom{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+.container-bottom .left{
+	float:left;
+}	
+.container-bottom .right{
+	float:right;
 }
