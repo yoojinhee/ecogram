@@ -9,3 +9,10 @@ function clickover(url){
 	document.getElementById("post").style.display="none";
 	history.back();
 }
+function search1(){
+	if(frm1.search.value){
+		frm1.submit();
+	}else{
+		location.href="feed.php";
+	}
+}
