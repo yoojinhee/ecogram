@@ -1,4 +1,4 @@
-.wrraper{
+.wrapper{
 	padding-top: 70px;
 }
 .bottom:after,.container:after { content:""; clear:both; display:block; }
@@ -14,7 +14,7 @@
 	text-decoration: none;
 }
 .container{
-	width:350px;
+	width:380px;
 	margin:0 auto;
 }
 .bottom,.top{
@@ -35,25 +35,30 @@
 }
 .signUpButtondiv,.teldiv,.passworddiv,.iddiv,.namediv{
 	text-align: center;
-	width:280px;
+	width:300px;
 	margin:0 auto 20px auto;
 	height: 32px;
 }
 .tel,.password,.id,.name{
+	padding-left: 10px;
+	padding-right: 10px;
 	width:95%;
 	height: 100%;
 	background-color: #F3F7E8;
 	border:1px solid #F3F7E8;
 }
+input::placeholder{
+	color:#69A304;
+}
 .signUpButton{
-	width:273px;
+	width:307px;
 	height: 100%;
 	background-color: white;
 	border:1px solid #F3F7E8;
 	color:#69A304;
 }
 .bottom{
-	padding:20px 50px 20px 50px;
+	padding:20px 60px 20px 60px;
 }
 .bottom .left{
 	float:left;

@@ -1,4 +1,4 @@
-.wrraper{
+.wrapper{
 	margin-top:80px;
 }
 .bottom:after,.bottomdiv:after{ content:""; clear:both; display:block; }
@@ -6,7 +6,7 @@
 	padding-top:30px;
 	padding-bottom: 60px;
 	background-color: #F7F7F7;
-	width: 900px;
+	width: 1000px;
 	margin:0 auto;
 }
 .top{

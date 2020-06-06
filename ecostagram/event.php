@@ -1,7 +1,7 @@
 <?php 
+$url="event.php";
+require_once("lib/header_top.php");
 ?>
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -10,14 +10,13 @@
 	<style>
 		@import url("css/event.css");
 		@import url("css/header.css");
-
 	</style>
 </head>
 <body>
 	<?php 
 		require_once("lib/header_bottom.php");
 	?>
-	<div class="wrraper">
+	<div class="wrapper">
 		<div class="container">
 			<div class="top">
 				<div class="event-title">

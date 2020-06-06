@@ -10,7 +10,7 @@
 	</style>
 </head>
 <body>
-	<div class="wrraper">
+	<div class="wrapper">
 		<div class="logo">
 			<a href="">로고</a>
 		</div>
@@ -33,10 +33,10 @@
 					</div>
 					<form action="login_process.php" method="post">
 						<div class="iddiv">
-							<input type="text" name="id" class="id">
+							<input type="text" name="id" class="id" placeholder="id" required>
 						</div>
 						<div class="passworddiv">
-							<input type="text" name="password" class="password">
+							<input type="text" name="password" placeholder="password" class="password"required>
 						</div>
 						<div class="loginButtondiv">
 							<input type="submit" value="login" class="login">

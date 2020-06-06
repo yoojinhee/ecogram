@@ -1,4 +1,6 @@
 <?php  
+$url="feed.php";
+require_once("lib/header_top.php");
 ?>
 <!DOCTYPE html>
 <html lang="ko">
@@ -14,7 +16,7 @@
 	<?php 
 		require_once("lib/header_bottom.php");
 	?>
-	<div class="wrraper">
+	<div class="wrapper">
 		<div class="top">
 			<div class="search">
 				<input type="text" name="search" class="searchtext" placeholder="검색">

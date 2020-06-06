@@ -1,4 +1,6 @@
 <?php  
+$url="index.php";
+require_once("lib/header_top.php");
 ?>
 <!DOCTYPE html>
 <html lang="ko">
@@ -7,27 +9,25 @@
 	<title>ecostagram</title>
 	<style>
 		@import url("css/index.css");
+		@import url("css/header.css");
 	</style>
+    <script src="js/header.js"></script>
 </head>
 <body>
-	<header>
-		<div class="info">
-			<div class="log">
-				<a href="login.php">로그인</a>
-			</div>
-		</div>
-	</header>
-	<div class="wrraper">
-		<div class="nav">
-			<div class="logo">
+	<?php 
+		require_once("lib/header_bottom.php");
+	?>
+	<div class="wrapper">
+		<div class="wrap-nav">
+			<div class="wrap-logo">
 				<a href="">로고</a>
 			</div>
 			<div class="menu">
 				<ul>
-					<li><a href="event.php">이벤트</a></li>
+					<li><a href="event.php" onclick="<?=$logchk?>">이벤트</a></li>
 					<li><a href="feed.php">피드</a></li>
-					<li><a href="upload.php">업로드</a></li>
-					<li><a href="post.php">게시물</a></li>
+					<li><a href="upload.php" onclick="<?=$logchk?>">업로드</a></li>
+					<li><a href="post.php" onclick="<?=$logchk?>">게시물</a></li>
 				</ul>
 			</div>
 		</div>

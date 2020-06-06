@@ -1,3 +1,7 @@
+<?php  
+$url="post.php";
+require_once("lib/header_top.php");
+?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -12,7 +16,7 @@
 	<?php 
 		require_once("lib/header_bottom.php");
 	?>
-	<div class="wrraper">
+	<div class="wrapper">
 		<div class="top">
 			<div class="post">
 				<a href="">게시물</a>

@@ -11,7 +11,7 @@
 	<script src="js/sign_up.js"></script>
 </head>
 <body>
-	<div class="wrraper">
+	<div class="wrapper">
 		<div class="logo">
 			<a href="">로고</a>
 		</div>
@@ -22,16 +22,16 @@
 				</div>
 				<form method="POST" action="sign_up_process.php">
 					<div class="namediv">
-						<input type="text" name="name" class="name">
+						<input type="text" name="name" class="name" placeholder="name" required>
 					</div>
 					<div class="iddiv">
-						<input type="text" name="id" class="id">
+						<input type="text" name="id" class="id" placeholder="id" required>
 					</div>
 					<div class="passworddiv">
-						<input type="password" name="password" class="password">
+						<input type="password" name="password" class="password" placeholder="password" required>
 					</div>
 					<div class="teldiv">
-						<input type="text" name="tel" class="tel">
+						<input type="text" name="tel" class="tel" placeholder="tel" required>
 					</div>
 					<div class="signUpButtondiv">
 						<input type="submit" value="sign up" class="signUpButton">

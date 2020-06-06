@@ -32,3 +32,16 @@
  
         preview.appendChild(image);
     })
+
+
+// function findTag(){
+//     var tag=document.getElementById("tag");
+//     var retag='#';
+//     if(tag.value.indexOf("#") != -1) {
+//         //alert("성공!");
+//         //tag.value="dfdf";
+//         //tag.value.replace("#","<b>"+retag+"</b>");
+//         tag.style.color="red";
+//     }
+// }
+

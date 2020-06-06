@@ -15,6 +15,7 @@ while($row=mysqli_fetch_array($result)){
       session_start();
       $_SESSION['id']=$filtered['id'];
       $_SESSION['password']=$filtered['password'];
+      $_SESSION['_id']=$row['_id'];
       $bool=false;
   
       header("Location: index.php");

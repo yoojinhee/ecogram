@@ -6,23 +6,11 @@ header{
 	width:100%;
 	background-color: #F7F7F7;
 }
-.nav:after,header:after,.info:after { content:""; clear:both; display:block; }
-.info{
-	width:1000px;
-	margin:0 auto;
-}
-.log{
-	font-size: 1.2rem;
-	float:right;
-	margin-top:15px;
-}
-.wrraper{
-
-}
-.logo{
+.wrap-nav:after,header:after,.info:after { content:""; clear:both; display:block; }
+.wrap-logo{
 	float:left;
 }
-.nav{
+.wrap-nav{
 	font-size: 1.4rem;
 	width: 700px;
 	margin:0 auto;

@@ -1,4 +1,4 @@
-.wrraper{
+.wrapper{
 	padding-top: 70px;
 }
 .container-bottom:after,.container:after { content:""; clear:both; display:block; }
@@ -20,7 +20,7 @@
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
-	width:755px;
+	width:795px;
 }
 .container-bottom,.container-left,.top{
 	padding-left: 30px;
@@ -57,35 +57,42 @@
 	font-size: 1.4rem;
 }
 .loginButtondiv,.passworddiv,.iddiv{
-	width:230px;
+	width:270px;
 	height: 35px;
-	margin-bottom:15px;
+	text-align: center;
+	margin:0 auto 15px auto;
 }
 .loginButtondiv{
 	padding-bottom: 43px;
 	border-bottom: 1px solid #69A304;
 }
 .password,.id{
+	padding-left: 10px;
+	padding-right: 10px;
 	border:1px solid #F3F7E8;
 	background-color: #F3F7E8;
-	width:98%;
+	width:90%;
 	height: 98%;
+}
+input::placeholder{
+	color:#69A304;
 }
 .login{
 	color:#69A304;
 	border:1px solid #F3F7E8;
 	background-color: #ffffff;
-	width: 231px;
+	width: 265px;
 	height: 98%;
 }
 .top .bottom{
+	width:270px;
 	padding-top: 20px;
 	padding-bottom: 40px;
 	text-align: center;
 }
 .container-bottom{
-	padding-left: 35px;
-	padding-right: 35px;
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: 10px;

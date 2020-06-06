@@ -1,5 +1,6 @@
 <?php  
-
+$url="sign_up.php";
+require_once("lib/header_top.php");
 ?>
 <!DOCTYPE html>
 <html lang="ko">
@@ -15,7 +16,7 @@
 	<?php 
 		require_once("lib/header_bottom.php");
 	?>
-	<div class="wrraper">
+	<div class="wrapper">
 		<div class="container">
 			<div class="top">
 				<div class="title">
@@ -48,7 +49,7 @@
 							</select>
 						</div>
 						<div class="tagdiv">
-							<input type="text" name="tag" class="tag">
+							<input type="text" name="tag" class="tag" id="tag" placeholder="#">
 						</div>
 					</div>
 				</div>
