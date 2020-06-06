@@ -16,7 +16,7 @@ if(isset($_SESSION['_id'])){
 	$log="로그아웃";
 	$logchk='return logoutchk();';
 	$loginchk='';
-	$log_href="index.php";
+	$log_href="";
 }
 if(isset($url)){
 	if($url!="index.php"){

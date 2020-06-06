@@ -12,7 +12,6 @@ while($row=mysqli_fetch_array($result)){
 }
 
 $IsGETid=0;
-$name='';
 $title='';
 $content='';
 $file='';
