@@ -4,8 +4,8 @@ function clickpost(IsGETid){
 		document.getElementById("post").style.display="block";
 	}
 }
-function clickover(){
+function clickover(url){
 	document.getElementById("over").style.display="none";
 	document.getElementById("post").style.display="none";
-	location.href="feed.php";
+	history.back();
 }

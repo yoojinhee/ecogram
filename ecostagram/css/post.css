@@ -6,13 +6,13 @@
 	width:140px;
 	margin:0 auto;
 }
-.post{
+.top-post{
 	float:left;
 }
-.upload{
+.top-upload{
 	float:right;
 }
-.upload a,.post a{
+.top-upload a,.top-post a{
 	color: black;
 	text-decoration: none;
 	font-size: 1.2rem;
