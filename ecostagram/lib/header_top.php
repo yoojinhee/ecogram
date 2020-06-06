@@ -5,6 +5,7 @@ session_start();
 $log="로그인";
 $name="";
 $logchk='return loginchk();';
+$loginchk='return loginchk();';
 $log_href="login.php";
 $logo='';
 if(isset($_SESSION['_id'])){
@@ -14,6 +15,7 @@ if(isset($_SESSION['_id'])){
 	$name=$row['name'];
 	$log="로그아웃";
 	$logchk='return logoutchk();';
+	$loginchk='';
 	$log_href="index.php";
 }
 if(isset($url)){

@@ -24,10 +24,10 @@ require_once("lib/header_top.php");
 			</div>
 			<div class="menu">
 				<ul>
-					<li><a href="event.php" onclick="<?=$logchk?>">이벤트</a></li>
+					<li><a href="event.php" onclick="<?=$loginchk?>">이벤트</a></li>
 					<li><a href="feed.php">피드</a></li>
-					<li><a href="upload.php" onclick="<?=$logchk?>">업로드</a></li>
-					<li><a href="post.php" onclick="<?=$logchk?>">게시물</a></li>
+					<li><a href="upload.php" onclick="<?=$loginchk?>">업로드</a></li>
+					<li><a href="post.php" onclick="<?=$loginchk?>">게시물</a></li>
 				</ul>
 			</div>
 		</div>
