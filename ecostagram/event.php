@@ -11,6 +11,7 @@ require_once("lib/header_top.php");
 		@import url("css/event.css");
 		@import url("css/header.css");
 	</style>
+    <script src="js/header.js"></script>
 </head>
 <body>
 	<?php 

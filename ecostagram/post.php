@@ -16,6 +16,7 @@ require_once("lib/show_post_top.php");
 		@import url("css/show_post.css");
 		@import url("css/header.css");
 	</style>
+    <script src="js/header.js"></script>
 	<script src="js/feed.js"></script>
 </head>
 <body onload="clickpost(<?=$IsGETid?>)">
