@@ -27,9 +27,11 @@
 			</div>
 			<form action="upload_process.php" method="post" enctype="multipart/form-data">
 				<div class="main">
-					<dib class="filediv">
-						<input type="file" size=100 name="upload">
-					</dib>
+					<div class="filediv">
+						<div id="preview"></div>
+						<input type="file" name="upload" id="upload">
+						<div class="onclick" onclick="onclick=document.all.upload.click()">사진추가</div>
+					</div>
 					<div class="titlediv">
 						<input type="text" name="title" class="title" placeholder="제목">
 					</div>
@@ -59,4 +61,5 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript" src="js/upload.js"></script>
 </html>
