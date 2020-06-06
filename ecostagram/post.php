@@ -1,6 +1,17 @@
 <?php  
 $url="post.php";
 require_once("lib/header_top.php");
+$sql="select * from feed where user_id=".$_SESSION['_id']." order by _id desc";
+$result=mysqli_query($conn,$sql);
+$list='';
+while($row=mysqli_fetch_array($result)){
+	$list=$list.
+	'
+	<span class="items">
+		<img src="uploads/'.$row['file'].'" width="326" height="300" alt="테스트이미지">
+	</span>
+	';
+}
 ?>
 <!DOCTYPE html>
 <html lang="ko">
@@ -26,17 +37,7 @@ require_once("lib/header_top.php");
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
-				<span class="items">
-					<img src="images/test.png" width="326" height="300" alt="테스트이미지">
-				</span>
-				<span class="items">
-					<img src="images/test.png" width="326" height="300" alt="테스트이미지">
-				</span>
-				<span class="items">
-					<img src="images/test.png" width="326" height="300" alt="테스트이미지">
-				</span>
-			</div>
+			<?=$list?>
 		</div>
 	</div>
 </body>
